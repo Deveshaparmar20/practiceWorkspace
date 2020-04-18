@@ -1,0 +1,7 @@
+C:\Users\Nupur\source\repos\LinkedListProj\InBuiltLinkedList\bin\Debug\InBuiltLinkedList.exe.config
+C:\Users\Nupur\source\repos\LinkedListProj\InBuiltLinkedList\bin\Debug\InBuiltLinkedList.exe
+C:\Users\Nupur\source\repos\LinkedListProj\InBuiltLinkedList\bin\Debug\InBuiltLinkedList.pdb
+C:\Users\Nupur\source\repos\LinkedListProj\InBuiltLinkedList\obj\Debug\InBuiltLinkedList.csprojAssemblyReference.cache
+C:\Users\Nupur\source\repos\LinkedListProj\InBuiltLinkedList\obj\Debug\InBuiltLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\Nupur\source\repos\LinkedListProj\InBuiltLinkedList\obj\Debug\InBuiltLinkedList.exe
+C:\Users\Nupur\source\repos\LinkedListProj\InBuiltLinkedList\obj\Debug\InBuiltLinkedList.pdb
