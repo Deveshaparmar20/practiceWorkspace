@@ -50,7 +50,7 @@ namespace BinaryTree
             tree.deleteKey(50);
             Console.WriteLine("Inorder traversal of the modified tree");
             tree.inorder();
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
