@@ -1,0 +1,10 @@
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll.config
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.pdb
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\bin\Debug\EntityFramework.dll
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\bin\Debug\EntityFramework.xml
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CopyComplete
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
