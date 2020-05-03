@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ulEmployees = $('#ulEmployees');
+            $('#btn').click(function () {
+                var userName = $('#txtUserName').val();
+                var password = $('#txtPassword').val();
+                $.ajax({
+                    type: 'GET',
+                    url: 'api/Employees',
+                    dataType: 'json',
+                    headers: {
+                        'Authorization':'Basic '+btoa(userName+':'+password)
+                    },
+                    success: function (data) {
+                        ulEmployees.empty();
+                        $.each(data,
+                            function (index, val) {
+                                var fullName = val.FirstName + ' ' + val.LastName;
+                                ulEmployees.append('<li>' + fullName + '</li');
+                            });
+                    },
+                    complete: function(obj) {
+                        if (obj.status == '401') {
+                            ulEmployees.empty();
+                            ulEmployees.append('<li style="color:red">' + obj.status + ':' + obj.statusText + '</li>');
+                        }
+                    }
+                });
+            });
+            $('#btnClear').click(function () {
+                ulEmployees.empty();
+            });
+        });
+    </script>
+</head>
+<body>
+    UserName : <input type="text" id="txtUserName" />
+    Password : <input type="password" id="txtPassword" />
+    <br /><br />
+    <input id="btn" type="button" value="Get All Employees" />
+    <input id="btnClear" type="button" value="Clear" />
+    <ul id="ulEmployees"></ul>
+</body>
+</html>

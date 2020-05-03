@@ -13,7 +13,7 @@ namespace AdjacencyLinkedLists
             Console.WriteLine("Enter file name");
             string file = Console.ReadLine();
             Graph g = new Graph(@"C:\PersonalSourceCode\LinkedListProj\AdjacencyLinkedLists\" + file);
-            g.Print();
+            g.dfs();
             Console.ReadLine();
         }
     }

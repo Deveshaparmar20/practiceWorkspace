@@ -8,3 +8,4 @@ C:\PersonalSourceCode\WebApi\EmployeeDataAccess\bin\Debug\EntityFramework.SqlSer
 C:\PersonalSourceCode\WebApi\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CopyComplete
 C:\PersonalSourceCode\WebApi\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
 C:\PersonalSourceCode\WebApi\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
+C:\PersonalSourceCode\WebApi\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csprojAssemblyReference.cache

@@ -56,6 +56,34 @@ namespace AdjacencyLinkedLists
             }
         }
 
+        //depth first search using recursion
+        private void dfs(int v, bool[] visited)
+        {
+            visited[v] = true;
+            Console.WriteLine("\nVisiting "+adjList[v].name);
+            for (var nbr = adjList[v].adjList; nbr != null; nbr = nbr.next)
+            {
+                if (!visited[nbr.vertexNum])
+                {
+                    Console.WriteLine(adjList[v].name+"--"+adjList[nbr.vertexNum].name);
+                    dfs(nbr.vertexNum,visited);
+                }
+            }
+        }
+
+        public void dfs()
+        {
+            bool[] visited = new bool[adjList.Length];
+            for (int i = 0; i < visited.Length; i++)
+            {
+                if (!visited[i])
+                {
+                    Console.WriteLine("\nStarting at " + adjList[i].name);
+                    dfs(i, visited);
+                }
+            }
+        }
+
         public void Print()
         {
             for (int i = 0; i < adjList.Length; i++)
