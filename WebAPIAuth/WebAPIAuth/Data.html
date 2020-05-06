@@ -9,6 +9,7 @@
     <div class="col-md-10 col-md-offset-1">
         <div class="well">
             <input type="button" id="btnLoadEmployees" class="btn btn-success" value="Load Employees" />
+            <input type="button" id="btnLogOff" class="btn btn-success pull-right" value="Log Off" />
         </div>
         <div class="well hidden" id="divData">
             <table class="table table-bordered" id="tblData">
@@ -60,6 +61,13 @@
             if (sessionStorage.getItem('accessToken') == null) {
                 window.location.href = "Login.html";
             }
+            $('#errorModal').on('hidden.bs.modal', function() {
+                window.location.href = "Login.html";
+            });
+            $('#btnLogOff').click(function() {
+                sessionStorage.removeItem('accessToken');
+                window.location.href = "Login.html";
+            });
             $('#btnLoadEmployees').click(function() {
                 $.ajax({
                     url: '/api/Employees',
@@ -87,9 +95,10 @@
                             });
                         
                     },
-                    error: function(obj) {
-                        $('#divErrorText').text(obj.responseText);
-                        $('#divError').show('fade');
+                    error: function (obj) {
+                        if (obj.status == '401') {
+                            $('#errorModal').modal('show');
+                        }
                     }
                 });
 
