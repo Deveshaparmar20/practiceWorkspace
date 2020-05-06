@@ -13,6 +13,7 @@
                     <tr class="success">
                         <td colspan="2">
                             New User Registration
+                            <a class="btn btn-success pull-right" href="Login.html">Login</a>
                         </td>
                     </tr>
                 </thead>
@@ -81,17 +82,17 @@
                         password: $('#txtPassword').val(),
                         confirmPassword: $('#txtConfirmPassword').val()
                     },
-                    success: function() {
+                    success: function () {
                         $('#successModal').modal('show');
                     },
-                    error: function(obj) {
+                    error: function (obj) {
                         $('#divErrorText').text(obj.responseText);
                         $('#divError').show('fade');
                     }
                 });
-                
+
             });
-            $('#linkClose').click(function() {
+            $('#linkClose').click(function () {
                 $('#divError').hide('fade');
             });
         });
