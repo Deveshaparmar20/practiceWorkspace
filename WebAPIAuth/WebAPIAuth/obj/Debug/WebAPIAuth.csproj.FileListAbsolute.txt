@@ -112,3 +112,4 @@ C:\PersonalSourceCode\WebAPIAuth\WebAPIAuth\bin\Microsoft.CodeDom.Providers.DotN
 C:\PersonalSourceCode\WebAPIAuth\WebAPIAuth\obj\Debug\WebAPIAuth.csproj.CopyComplete
 C:\PersonalSourceCode\WebAPIAuth\WebAPIAuth\obj\Debug\WebAPIAuth.dll
 C:\PersonalSourceCode\WebAPIAuth\WebAPIAuth\obj\Debug\WebAPIAuth.pdb
+C:\PersonalSourceCode\WebAPIAuth\WebAPIAuth\obj\Debug\WebAPIAuth.csprojAssemblyReference.cache
