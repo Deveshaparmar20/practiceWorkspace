@@ -101,7 +101,7 @@ namespace Algorithms_DataStruct_Lib
                 {
                     if (i > mid) array[k] = aux[j++];
                     else if (j > high)
- array[k] = aux[i++];
+                        array[k] = aux[i++];
                     else if (aux[j] < aux[i])
                         array[k] = aux[j++];
                     else
