@@ -18,9 +18,8 @@ namespace Algorithms.DataStruct.Lib.Tests
             //samples[5] = new[] { 4, -5, 3, 3 };
             //samples[6] = new[] { 0, -5, 3, 3 };
             //samples[7] = new[] { 0, -5, 3, 0 };
-            //samples[0] = new[] { 33, 22, 11, 00, 44, 77, 99, 55, 88, 66 };
-            samples[0] = new[] {3, 2, 5, 5, 1, 0, 7, 8, 91, 23, 56, 76, 89, 34};
-
+            //samples[0] = new[] {3, 2, 5, 5, 1, 0, 7, 8, 91, 23, 56, 76, 89, 34};
+            samples[0] = new[] { 33,22,11,00,44,77,99,55,88,66 };
             return samples;
         }
 
