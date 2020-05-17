@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div className="App"> 
       <HoverCounter/>
-      <ClickCounter/>
+      <ClickCounter name='devesha'/>
       {/* <ErrorBoundary>
       <Hero heroName="Batman"/>
       <Hero heroName="Superman"/>
