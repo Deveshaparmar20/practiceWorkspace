@@ -14,24 +14,36 @@ import ClickCounterTwo from './components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
 import User from './components/User';
 import CounterA from './components/CounterA';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/UserContext';
 
 class App extends Component {
   render() {
     return (
-      <div className="App"> 
-      <CounterA render={(count,incrementCount)=><ClickCounterTwo count={count} incrementCount={incrementCount}/>}/>
-      <CounterA render={(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}/>
+      <div className="App">
+        <UserProvider value="Devesha">
+        <ComponentC/>
+        </UserProvider>
+        {/* <CounterA>
+          {(count, incrementCount) =>
+          (<ClickCounterTwo count={count} incrementCount={incrementCount} />)}
+        </CounterA>
 
-      {/* <HoverCounter/>
+        <CounterA>
+          {(count, incrementCount) =>
+          (<HoverCounterTwo count={count} incrementCount={incrementCount} />)}
+        </CounterA> */}
+
+        {/* <HoverCounter/>
       <ClickCounter name='devesha'/> */}
-      {/* <ErrorBoundary>
+        {/* <ErrorBoundary>
       <Hero heroName="Batman"/>
       <Hero heroName="Superman"/>
       <Hero heroName="Joker"/> 
       </ErrorBoundary> */}
-      {/* <PortalDemo/>   */}
-      {/* <FRParentInput/> */}
-      {/* <FocusInput/> */}
+        {/* <PortalDemo/>   */}
+        {/* <FRParentInput/> */}
+        {/* <FocusInput/> */}
       </div>
     )
   };
