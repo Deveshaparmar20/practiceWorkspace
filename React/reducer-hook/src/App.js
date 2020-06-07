@@ -1,14 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import PostList from './components/PostList';
-import PostForm from './components/PostForm';
+import DataFethingOne from './components/DataFethingOne';
+import DataFetchingTwo from './components/DataFetchingTwo';
 
 function App() {
   return (
     <div className="App">
-      <PostForm/>
-      {/* <PostList/> */}
+      <DataFetchingTwo />
     </div>
   );
 }
