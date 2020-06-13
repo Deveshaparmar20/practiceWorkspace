@@ -1,6 +1,0 @@
-C:\PersonalSourceCode\LinkedListProj\AdjacencyLinkedLists\bin\Debug\AdjacencyLinkedLists.exe.config
-C:\PersonalSourceCode\LinkedListProj\AdjacencyLinkedLists\bin\Debug\AdjacencyLinkedLists.exe
-C:\PersonalSourceCode\LinkedListProj\AdjacencyLinkedLists\bin\Debug\AdjacencyLinkedLists.pdb
-C:\PersonalSourceCode\LinkedListProj\AdjacencyLinkedLists\obj\Debug\AdjacencyLinkedLists.exe
-C:\PersonalSourceCode\LinkedListProj\AdjacencyLinkedLists\obj\Debug\AdjacencyLinkedLists.pdb
-C:\PersonalSourceCode\LinkedListProj\AdjacencyLinkedLists\obj\Debug\AdjacencyLinkedLists.csprojAssemblyReference.cache

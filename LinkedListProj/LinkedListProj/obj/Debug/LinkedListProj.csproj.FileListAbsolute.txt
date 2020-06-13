@@ -1,7 +1,0 @@
-C:\Users\Nupur\source\repos\LinkedListProj\LinkedListProj\bin\Debug\LinkedListProj.exe.config
-C:\Users\Nupur\source\repos\LinkedListProj\LinkedListProj\bin\Debug\LinkedListProj.exe
-C:\Users\Nupur\source\repos\LinkedListProj\LinkedListProj\bin\Debug\LinkedListProj.pdb
-C:\Users\Nupur\source\repos\LinkedListProj\LinkedListProj\obj\Debug\LinkedListProj.csprojAssemblyReference.cache
-C:\Users\Nupur\source\repos\LinkedListProj\LinkedListProj\obj\Debug\LinkedListProj.csproj.CoreCompileInputs.cache
-C:\Users\Nupur\source\repos\LinkedListProj\LinkedListProj\obj\Debug\LinkedListProj.exe
-C:\Users\Nupur\source\repos\LinkedListProj\LinkedListProj\obj\Debug\LinkedListProj.pdb
