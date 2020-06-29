@@ -15,15 +15,17 @@ import HoverCounterTwo from './components/HoverCounterTwo';
 import User from './components/User';
 import CounterA from './components/CounterA';
 import ComponentC from './components/ComponentC';
+import Greet from './components/Greet'
 import { UserProvider } from './components/UserContext';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserProvider value="Devesha">
+        <Greet name="dev" heroName="parmar" />
+        {/* <UserProvider value="Devesha">
         <ComponentC/>
-        </UserProvider>
+        </UserProvider> */}
         {/* <CounterA>
           {(count, incrementCount) =>
           (<ClickCounterTwo count={count} incrementCount={incrementCount} />)}
